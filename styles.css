@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder{
+	
+	display:flex;
+	flex-wrap:nowrap;
+	padding:20px;
+	justify-content:space-between;
+}
+
+.holder > .flex-item{
+	background-color:yellow;
+	padding:18px;
+
+	text-align:center;
+	border:1px solid black;
+	
+	
+}
